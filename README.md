@@ -12,4 +12,8 @@ For Linux, the raylib library has to be installed under /usr/lib directory.
 To compile the game, type "make" in the terminal in the 'space-shooter-game' directory.
 To delete the executables, type "make clean" in the terminal in the 'space-shooter-game' directory.
 
-
+To play the game:
+  Use "wasd" keys to move around the map.
+  Use your mouse to rotate your crosshair.
+  Use your mouse button 1 (left click) to shoot.
+  Use "esp" to pause the game.
