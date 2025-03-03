@@ -1,4 +1,4 @@
-# space-shooter
+# space-shooter-game
 A game in which you gain score by blasting asteroids made with C++ and Raylib
 
 Currently, this Makefile works both for Windows and Linux.
@@ -9,7 +9,7 @@ Make sure cpp compiler is in the PATH in Windows.
 
 For Linux, the raylib library has to be installed under /usr/lib directory.
 
-To compile the game, type "make" in the terminal in the space-shooter directory.
-To delete the executables, type "make clean" in the terminal in the space-shooter directory.
+To compile the game, type "make" in the terminal in the 'space-shooter-game' directory.
+To delete the executables, type "make clean" in the terminal in the 'space-shooter-game' directory.
 
 
