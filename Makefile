@@ -19,7 +19,7 @@ INCLUDES = -Iinclude
 
 # OS-Specific configurations
 ifeq ($(OS), Linux)
-    LIBS = -Llib -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+    LIBS = -L/usr/lib -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
     TARGET = space_shooter
 else
     LIBS = -Llib -lraylib -lopengl32 -lgdi32 -lwinmm
